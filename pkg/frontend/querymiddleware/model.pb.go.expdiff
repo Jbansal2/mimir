@@ -4,7 +4,7 @@ index 289f189efb..0f4174cc54 100644
 +++ b/pkg/frontend/querymiddleware/model.pb.go
 @@ -84,9 +84,6 @@ func (m *PrometheusHeader) GetValues() []string {
  }
- 
+
  type PrometheusResponse struct {
 -	// Keep reference to buffer for unsafe references.
 -	github_com_grafana_mimir_pkg_mimirpb.BufferHolder
